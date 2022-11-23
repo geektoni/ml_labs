@@ -32,7 +32,7 @@ def plot_decision_surface(X, Y, clf):
     ax.scatter(X0, X1, c=colors, cmap=plt.cm.coolwarm, s=20)
     ax.set_ylabel('$x_0$')
     ax.set_xlabel('$x_1$')
-    ax.set_title('Decision surface of the SVM classifier')
+    ax.set_title('Decision surface of the classifier')
     plt.show()
 
 
